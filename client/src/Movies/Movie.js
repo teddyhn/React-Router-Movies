@@ -20,7 +20,7 @@ const Movie = (props) => {
           console.error(error);
         });
 
-  },[]);
+  },[movie]);
   
   
   const saveMovie = () => {
