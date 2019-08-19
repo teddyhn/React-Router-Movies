@@ -20,8 +20,7 @@ const Movie = (props) => {
           console.error(error);
         });
 
-  },[movie]);
-  
+  }, [props.match.params.id]);  
   
   const saveMovie = () => {
     const addToSavedList = props.addToSavedList;
